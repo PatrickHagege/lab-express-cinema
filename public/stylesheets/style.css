@@ -1,8 +1,31 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body  {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+#background {
+  width: 100%;
+  position:relative;
+}
+
+#home-title {
+  position:absolute;
+  top:5vh;
+  left:55vw;
+  color:white;
+  font-size:7rem;
+}
+
+#link-to-movies {
+  position:absolute;
+  bottom:40vh;
+  left:55vw;
+  color:cadetblue;
+  text-decoration: none;
+  padding:1rem 3rem;
+  background-color:white;
+  font-size:1.2rem;
+  border-radius:2rem;
 }
